@@ -1,8 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0fd-B4-kgi">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="wJZ-iy-13J">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0fd-B4-kgi" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4GO-d0-5kZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3aG-5k-bKs" kind="relationship" relationship="viewControllers" id="wOe-4J-Khu"/>
+                        <segue destination="zKZ-Tg-oDV" kind="relationship" relationship="viewControllers" id="WgU-D5-Q72"/>
+                        <segue destination="ilP-2X-iWp" kind="relationship" relationship="viewControllers" id="sUc-9j-LXT"/>
+                        <segue destination="ZxC-Uw-7hd" kind="relationship" relationship="viewControllers" id="V4J-hr-Aql"/>
+                        <segue destination="5mK-Mh-Q3E" kind="relationship" relationship="viewControllers" id="hig-nu-tsE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wvu-hF-Pfv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="738" y="-35"/>
+        </scene>
+        <!--News-->
+        <scene sceneID="UTH-j7-NzA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="News" id="3aG-5k-bKs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="News" image="News" id="q3f-mP-FBB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z3m-M3-yas" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1592" y="-308"/>
+        </scene>
+        <!--ET-->
+        <scene sceneID="bOw-iK-Wno">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ET" id="zKZ-Tg-oDV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="ET" image="ET" id="C9U-Jw-tmE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="et1-ZE-eq8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1592" y="-198"/>
+        </scene>
+        <!--Business-->
+        <scene sceneID="I2g-QK-z4R">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Business" id="ilP-2X-iWp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Business" image="Business" id="OVf-je-XtU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fMH-1d-CP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1592" y="-58"/>
+        </scene>
+        <!--MyDhuniya-->
+        <scene sceneID="imr-By-mkv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyDhuniya" id="ZxC-Uw-7hd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="MyDhuniya" image="MyDhuniya" id="qvM-E1-MkS"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="etb-26-BX5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1592" y="26"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="V0P-Qv-oY9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="5mK-Mh-Q3E" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile" id="feB-dG-LXE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="alw-pv-AzO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1592" y="201"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Business" width="20" height="20"/>
+        <image name="ET" width="20.003000259399414" height="20"/>
+        <image name="MyDhuniya" width="19.999000549316406" height="19.99799919128418"/>
+        <image name="News" width="20" height="20"/>
+        <image name="profile" width="20" height="20"/>
+    </resources>
 </document>

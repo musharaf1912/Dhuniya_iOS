@@ -6,7 +6,7 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>09781BBE-0643-44FE-AB5E-0D41F1CF777D</key>
+		<key>5EDF8AB4-BB0F-407D-8EF5-0BB07DAF9962</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,17 +15,17 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>09781BBE-0643-44FE-AB5E-0D41F1CF777D.xcactivitylog</string>
+			<string>5EDF8AB4-BB0F-407D-8EF5-0BB07DAF9962.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>S</string>
 				<key>totalNumberOfAnalyzerIssues</key>
 				<integer>0</integer>
 				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
+				<integer>0</integer>
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
@@ -34,49 +34,13 @@
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>785334431.40840495</real>
+			<real>785341196.96865797</real>
 			<key>timeStoppedRecording</key>
-			<real>785334434.78202295</real>
+			<real>785341200.54887199</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>09781BBE-0643-44FE-AB5E-0D41F1CF777D</string>
-		</dict>
-		<key>CFCC0D39-850F-41BE-9CB2-B4CE97D8988E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
-			<key>fileName</key>
-			<string>CFCC0D39-850F-41BE-9CB2-B4CE97D8988E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>signature</key>
-			<string>Update Signing</string>
-			<key>timeStartedRecording</key>
-			<real>785334516.741979</real>
-			<key>timeStoppedRecording</key>
-			<real>785334541.341102</real>
-			<key>title</key>
-			<string>Update Signing</string>
-			<key>uniqueIdentifier</key>
-			<string>CFCC0D39-850F-41BE-9CB2-B4CE97D8988E</string>
+			<string>5EDF8AB4-BB0F-407D-8EF5-0BB07DAF9962</string>
 		</dict>
 	</dict>
 </dict>
