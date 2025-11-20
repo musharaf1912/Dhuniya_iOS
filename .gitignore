@@ -1,0 +1,44 @@
+SourcePackages/
+.build/
+DerivedData/
+# Xcode
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcindex
+*.xcscmblueprint
+
+# Swift Package Manager
+SourcePackages/
+.build/
+.pack/
+artifacts/
+
+# Index files
+Index.noindex/
+
+# Firebase heavy pack files
+*.pack
+*.mdb
+# Xcode
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcindex
+*.xcscmblueprint
+
+# Swift Package Manager
+SourcePackages/
+.build/
+.pack/
+artifacts/
+*.xcframework
+
+# Index files
+Index.noindex/
+
+# Firebase heavy pack files
+*.pack
+*.mdb
